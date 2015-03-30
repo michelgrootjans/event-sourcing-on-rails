@@ -18,6 +18,7 @@
 - go to http://localhost:3000
 
 ### Running the worker to populate Redis
+- `cd dashboard`
 - `WORKERS=PostsWorker rake sneakers:run`
 
 ### Running the dashboard app
