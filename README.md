@@ -7,7 +7,7 @@
 - Setup rmq:
 -- `cd blog`
 -- `rake rabbitmq:setup`
--go to http://localhost:15672/
+- go to http://localhost:15672/
 
 ### Running Redis
 - Installation: `brew install redis`
