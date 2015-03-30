@@ -4,7 +4,7 @@
 ### Running RabbitMQ
 - Installation: `brew install rabbitmq`
 - Starting rmq: `rabbitmq-server`
-- go to http://localhost:15672/
+- go to [http://localhost:15672](http://localhost:15672)
 
 ### Running Redis
 - Installation: `brew install redis`
@@ -15,7 +15,7 @@
 - Setup queues: `rake rabbitmq:setup`
 - Setup database: `rake db:migrate`
 - `rails server -p 3000`
-- go to http://localhost:3000
+- go to [http://localhost:3000](http://localhost:3000)
 
 ### Running the worker to populate Redis
 - `cd dashboard`
@@ -24,6 +24,6 @@
 ### Running the dashboard app
 - `cd dashboard`
 - `rails server -p 3001`
-- go to http://localhost:3001
+- go to [http://localhost:3001](http://localhost:3001)
 
 [Based on this article](http://codetunes.com/2014/event-sourcing-on-rails-with-rabbitmq/)
