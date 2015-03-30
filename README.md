@@ -4,9 +4,6 @@
 ### Running RabbitMQ
 - Installation: `brew install rabbitmq`
 - Starting rmq: `rabbitmq-server`
-- Setup rmq:
--- `cd blog`
--- `rake rabbitmq:setup`
 - go to http://localhost:15672/
 
 ### Running Redis
@@ -15,6 +12,8 @@
 
 ### Running the Blog app
 - `cd blog`
+- Setup queues: `rake rabbitmq:setup`
+- Setup database: `rake db:migrate`
 - `rails server -p 3000`
 - go to http://localhost:3000
 
